@@ -96,6 +96,9 @@ public class IntList {
      */
     public static IntList catenate(IntList A, IntList B) {
         //TODO:  fill in method
+        if(B==null){
+            return A;
+        }
         if(A==null){
             return B;
         }
